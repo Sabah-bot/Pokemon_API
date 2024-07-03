@@ -1,4 +1,6 @@
-import { useState, UseEffect } from "react";
+import { useState, useEffect } from "react";
+import PokemonList from '../Components/PokemonList';
+
 
 function PokemonContainer(){
     const [pokemon, setPokemon] = useState([]);
@@ -12,4 +14,4 @@ function PokemonContainer(){
     return <PokemonList pokemon={pokemon} />
 }
 
-export default PokemonContainer
+export default PokemonContainer;

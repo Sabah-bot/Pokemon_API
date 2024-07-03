@@ -1,4 +1,6 @@
-import { useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
+
 
 function Pokemon() {
     const {id} = useParams();
@@ -21,11 +23,6 @@ function Pokemon() {
 
     )
 
-
-
-
-
-
-
-
 }
+
+export default Pokemon;
