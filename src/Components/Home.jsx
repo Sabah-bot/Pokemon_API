@@ -8,7 +8,6 @@ return(
     <div className="Home">
         <h1>Welcome to the Pokemon Website!</h1>
         <p>Explore the world of Pokemon!</p>
-        <Link to = "/pokemon">View Pokemone List</Link>
     </div>
 
 )
