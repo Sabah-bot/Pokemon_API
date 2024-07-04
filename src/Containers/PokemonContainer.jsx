@@ -23,7 +23,7 @@ function PokemonContainer() {
                         // Check if the Pokemon is not already in the list
                         if (!newPokemon.some(existing => existing.name === p.name)) {
                             // Extract the Pokemon ID from the URL
-                            const id = p.url.split('/').filter(Boolean).pop();
+                            const id = p.url.split('/').filter(Boolean).pop(); // splits the URL string into an array using '/' as the delimiter. || removes any empty strings from the array, which can occur due to leading/trailing slashes in the URL || takes the last element of the array, which is assumed to be the ID 
                             newPokemon.push({...p, id}); // Add new Pokemon with its ID
                         }
                     });
