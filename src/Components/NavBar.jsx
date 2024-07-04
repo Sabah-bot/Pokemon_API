@@ -5,8 +5,8 @@ const NavBar = () => {
     return (
         <div>
             <nav className="nav-bar">
-                <Link to="/" className="nav-link">Home</Link>
-                <Link to="/pokemon" className="nav-link">Pokemon List</Link>
+                <Link to="/" className="nav-link"><span>Home</span></Link>
+                <Link to="/pokemon" className="nav-link"><span>Pokemon List</span></Link>
             </nav>
         </div>
     )

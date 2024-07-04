@@ -21,6 +21,7 @@ function App() {
           <Route path = "/pokemon/:id" element={<Pokemon/>} />
         </Routes>
       </Router>
+
     </>
   );
 }
