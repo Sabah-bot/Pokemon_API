@@ -5,8 +5,9 @@ import Pokemon from './Components/Pokemon';
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
 import PokemonContainer from './Containers/PokemonContainer';
+import Footer from './Components/Footer';
 
-import './App.css'
+
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
           <Route path = "/pokemon" element={<PokemonContainer/>} />
           <Route path = "/pokemon/:id" element={<Pokemon/>} />
         </Routes>
+        <Footer/>
+
       </Router>
 
     </>
